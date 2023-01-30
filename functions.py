@@ -18,3 +18,36 @@ def print_letter_count( text, letter):
 print_letter_count(text='Welcome', letter='e')
 print_letter_count(letter='e', text='Welcome')
 
+
+def show_truth():
+    mysterious_var.append('New-Salam')
+    print(mysterious_var)
+
+mysterious_var = ['Salam']
+print(mysterious_var)
+show_truth()
+print(mysterious_var)
+
+
+def show_truth():
+    global mysterious_var
+    mysterious_var = 'New-Salam'
+    print(mysterious_var)
+
+mysterious_var = 'Salam'
+print(mysterious_var)
+show_truth()
+print(mysterious_var)
+print(mysterious_var)
+
+def show_truth():
+    mysterious_var = 'New-Salam'
+    print(mysterious_var)
+
+mysterious_var = 'Salam'
+print(mysterious_var)
+show_truth()
+print(mysterious_var)
+print(mysterious_var)
+
+
