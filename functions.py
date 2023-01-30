@@ -91,3 +91,7 @@ def get_factorial_recursive(number):
     return number * get_factorial_recursive(number - 1)
 
 print(get_factorial_recursive(6))
+
+
+
+
