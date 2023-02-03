@@ -146,3 +146,6 @@ print('Hi, I will collect some info about your bday!')
 user_info = []
 get_user_bday(user_info)
 
+name = "Eric"
+age = 74
+f"Hello, {name}. You are {age}."
